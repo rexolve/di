@@ -1,0 +1,15 @@
+{
+    "name": "rexolve/di",
+    "description": "Rexolve Dependency Injection Container",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rexolve\\DI\\": "src/"
+        }
+    },
+    "require": {
+        "psr/container": "^2.0",
+        "rexolve/interfaces": "*"
+    }
+}
